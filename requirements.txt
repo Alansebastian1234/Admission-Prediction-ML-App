@@ -1,0 +1,3 @@
+MAPIE==0.9.1
+pandas==2.3.3
+streamlit==1.45.1
