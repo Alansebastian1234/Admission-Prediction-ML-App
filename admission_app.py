@@ -6,6 +6,9 @@ import pandas as pd
 # Ignore Deprecation Warnings
 import warnings
 warnings.filterwarnings('ignore')
+password_guess = st.text_input('What is the Password?')
+if password_guess != st.secrets["password"]:
+    st.stop()
 
 st.title('Graduate Admission Predictor') 
 st.image('admission.jpg')
