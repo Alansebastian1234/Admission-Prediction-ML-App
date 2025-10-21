@@ -1,27 +1,7 @@
 # Import necessary libraries
 import streamlit as st
 import pickle
-import matplotlib.pyplot as plt
-import numpy as np
 import pandas as pd
-
-import sklearn
-from sklearn.ensemble import RandomForestRegressor # Random Forest
-import mapie
-# Import MAPIE to calculate prediction intervals
-from mapie.regression import MapieRegressor
-
-# To calculate coverage score
-from mapie.metrics import regression_coverage_score
-
-# Package for data partitioning
-from sklearn.model_selection import train_test_split
-
-# Package to record time
-import time
-
-# Module to save and load Python objects to and from files
-import pickle 
 
 # Ignore Deprecation Warnings
 import warnings
